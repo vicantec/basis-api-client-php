@@ -1,0 +1,29 @@
+{
+  "name": "basis-api/whatsapp-api-client-php",
+  "description": "basis-api.com REST API Client",
+  "keywords": [
+    "basis-api.com",
+    "whatsapp",
+    "rest",
+    "private api",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "basis-api.com",
+      "email": "support@basis-api.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BasisApi\\RestApi\\": "src/"
+    }
+  }
+}
