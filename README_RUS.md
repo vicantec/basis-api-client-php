@@ -1,7 +1,7 @@
-﻿# whatsapp-api-client-php
-[![Total Downloads](https://poser.pugx.org/basis-api/whatsapp-api-client-php/downloads?format=flat-square)](https://packagist.org/packages/basis-api/whatsapp-api-client-php)
-[![Downloads per month](https://img.shields.io/packagist/dm/basis-api/whatsapp-api-client-php.svg?style=flat-square)](https://packagist.org/packages/basis-api/whatsapp-api-client-php)
-[![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?style=flat-square)](https://packagist.org/packages/basis-api/whatsapp-api-client-php)
+﻿# basicapp-api-client-php
+[![Total Downloads](https://poser.pugx.org/basis-api/basicapp-api-client-php/downloads?format=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
+[![Downloads per month](https://img.shields.io/packagist/dm/basis-api/basicapp-api-client-php.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
+[![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
 
 PHP библиотека для интеграции с мессенджером WhatsApp через API сервиса [basis-api.com](https://basis-api.com). Чтобы воспользоваться библиотекой, нужно получить регистрационный токен и id аккаунта в [личном кабинете](https://cabinet.basis-api.com). Есть бесплатный тариф аккаунта разработчика.
 
@@ -13,7 +13,7 @@ PHP библиотека для интеграции с мессенджером
 Через Composer:
 
 ```bash
-composer require basis-api/whatsapp-api-client-php
+composer require basis-api/basicapp-api-client-php
 ```
 
 ## Import 
@@ -39,7 +39,7 @@ $basisApi = new BasisApiClient( ID_INSTANCE, API_TOKEN_INSTANCE );
 $result = $basisApi->sending->sendMessage('11001234567@g.us', 'Message text');
 ```
 
-Ссылка на пример: [sendTextMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendTextMessage.php)
+Ссылка на пример: [sendTextMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendTextMessage.php)
 
 Обратите внимание, что ключи можно получать из переменных среды:
 ```
@@ -58,7 +58,7 @@ $result = $basisApi->sending->sendFileByUrl(
         'googlelogo_color_272x92dp.png', 'Google logo');
 ```
 
-Ссылка на пример: [sendPictureByLink.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByLink.php)
+Ссылка на пример: [sendPictureByLink.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByLink.php)
 
 ### Отправка картинки загрузкой с диска
 
@@ -68,7 +68,7 @@ result = basisAPI.sending.sendFileByUpload('120363025955348359@g.us',
         'PicFromDisk.png', 'Picture from disk')
 ```
 
-Ссылка на пример: [sendPictureByUpload.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByUpload.php)
+Ссылка на пример: [sendPictureByUpload.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByUpload.php)
 
 ### Создание группы и отправка сообщения в эту группу
 
@@ -86,7 +86,7 @@ if ($resultCreate->code == 200)
 ВАЖНО: Если попытаться создать группу с несуществующим номером WhatsApp 
 может заблокировать номер отправителя. Номер в примере не существует.
 
-Ссылка на пример: [createGroupAndSendMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php)
+Ссылка на пример: [createGroupAndSendMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php)
 
 ### Получение входящих сообщений через HTTP API
 
@@ -111,11 +111,11 @@ body | тело сообщения (json)
 
 | Описание                                             | Модуль                                                                                                                                   |
 |------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Пример отправки текста                               | [sendTextMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendTextMessage.php)                     |
-| Пример отправки картинки по URL                      | [sendPictureByLink.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByLink.php)                 |
-| Пример отправки картинки загрузкой с диска           | [sendPictureByUpload.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByUpload.php)             |
-| Пример создание группы и отправка сообщения в группу | [createGroupAndSendMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php) |
-| Пример получения входящих уведомлений                | [receiveNotification.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/receiveNotification.php)             |
+| Пример отправки текста                               | [sendTextMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendTextMessage.php)                     |
+| Пример отправки картинки по URL                      | [sendPictureByLink.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByLink.php)                 |
+| Пример отправки картинки загрузкой с диска           | [sendPictureByUpload.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByUpload.php)             |
+| Пример создание группы и отправка сообщения в группу | [createGroupAndSendMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php) |
+| Пример получения входящих уведомлений                | [receiveNotification.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/receiveNotification.php)             |
 
 ## Полный список методов библиотеки
 

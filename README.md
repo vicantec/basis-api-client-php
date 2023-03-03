@@ -1,7 +1,7 @@
-# whatsapp-api-client-php
-[![Total Downloads](https://poser.pugx.org/basis-api/whatsapp-api-client-php/downloads?format=flat-square)](https://packagist.org/packages/basis-api/whatsapp-api-client-php)
-[![Downloads per month](https://img.shields.io/packagist/dm/basis-api/whatsapp-api-client-php.svg?style=flat-square)](https://packagist.org/packages/basis-api/whatsapp-api-client-php)
-[![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?style=flat-square)](https://packagist.org/packages/basis-api/whatsapp-api-client-php)
+# basicapp-api-client-php
+[![Total Downloads](https://poser.pugx.org/basis-api/basicapp-api-client-php/downloads?format=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
+[![Downloads per month](https://img.shields.io/packagist/dm/basis-api/basicapp-api-client-php.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
+[![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
 
 - [Документация на русском языке](README_RUS.md)
 
@@ -16,7 +16,7 @@ You can find REST API documentation by [url](https://cabinet.basis-api.com/docs/
 Via Composer:
 
 ```bash
-composer require basis-api/whatsapp-api-client-php
+composer require basis-api/basicapp-api-client-php
 ```
 
 ## Import
@@ -42,7 +42,7 @@ $basisApi = new BasisApiClient( ID_INSTANCE, API_TOKEN_INSTANCE );
 $result = $basisApi->sending->sendMessage('11001234567@g.us', 'Message text');
 ```
 
-Example url: [sendTextMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendTextMessage.php)
+Example url: [sendTextMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendTextMessage.php)
 
 Please note that keys can be obtained from environment variables:
 ```
@@ -61,7 +61,7 @@ $result = $basisApi->sending->sendFileByUrl(
         'googlelogo_color_272x92dp.png', 'Google logo');
 ```
 
-Example url: [sendPictureByLink.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByLink.php)
+Example url: [sendPictureByLink.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByLink.php)
 
 ### Sending an image by uploading from the disk
 
@@ -70,7 +70,7 @@ $result = $basisApi->sending->sendFileByUpload('11001234567@c.us',
         'C:\Games\PicFromDisk.png', 'PicFromDisk.jpg', 'Picture from disk');
 ```
 
-Example url: [sendPictureByUpload.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByUpload.php)
+Example url: [sendPictureByUpload.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByUpload.php)
 
 ### Group creation and sending a message to the group
 
@@ -88,7 +88,7 @@ if ($resultCreate->code == 200)
 IMPORTANT: If one tries to create a group with a non-existent number, WhatsApp
 may block the sender's number. The number in the example is non-existent.
 
-Example url: [createGroupAndSendMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php)
+Example url: [createGroupAndSendMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php)
 
 ### Receive incoming messages by HTTP API
 
@@ -113,11 +113,11 @@ This method will be called when an incoming message is received. Next, process m
 
 | Description                                                    | Module                                                                                                                                   |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Example of sending text                                        | [sendTextMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendTextMessage.php)                     |
-| Example of sending a picture by URL                            | [sendPictureByLink.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByLink.php)                 |
-| Example of sending a picture by uploading from the disk        | [sendPictureByUpload.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/sendPictureByUpload.php)             |
-| Example of a group creation and sending a message to the group | [createGroupAndSendMessage.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php) |
-| Example of incoming webhooks receiving                         | [receiveNotification.php](https://github.com/Yard-Team/whatsapp-api-client-php/blob/master/examples/receiveNotification.php)             |
+| Example of sending text                                        | [sendTextMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendTextMessage.php)                     |
+| Example of sending a picture by URL                            | [sendPictureByLink.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByLink.php)                 |
+| Example of sending a picture by uploading from the disk        | [sendPictureByUpload.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/sendPictureByUpload.php)             |
+| Example of a group creation and sending a message to the group | [createGroupAndSendMessage.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/createGroupAndSendMessage.php) |
+| Example of incoming webhooks receiving                         | [receiveNotification.php](https://github.com/Yard-Team/basicapp-api-client-php/blob/master/examples/receiveNotification.php)             |
 
 ## The full list of the library methods
 
