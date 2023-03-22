@@ -30,7 +30,7 @@ require 'vendor\autoload.php';
 ### Как инициализировать объект
 
 ```
-$basisApi = new BasisApiClient( ID_INSTANCE, API_TOKEN_INSTANCE );
+$basisApi = new BasisApiClient( ID_INSTANCE, API_TOKEN_INSTANCE, API_HOST);
 ```
 
 ### Отправка текстового сообщения на номер WhatsApp

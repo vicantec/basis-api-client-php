@@ -33,7 +33,7 @@ To send a message or to execute some other BASIS-API method, you have to have th
 ### How to initialize an object
 
 ```
-$basisApi = new BasisApiClient( ID_INSTANCE, API_TOKEN_INSTANCE );
+$basisApi = new BasisApiClient( ID_INSTANCE, API_TOKEN_INSTANCE, API_HOST);
 ```
 
 ### Sending a text message to a WhatsApp number
