@@ -18,7 +18,7 @@ class Queues {
 
 	/**
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/queues/ClearMessagesQueue/
+	 * @link https://basis-api.com/en/docs/api/queues/ClearMessagesQueue/
 	 */
 	public function clearMessagesQueue(): stdClass {
 
@@ -31,7 +31,7 @@ class Queues {
 	 * Messages sending delay parameter.'
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/queues/ShowMessagesQueue/
+	 * @link https://basis-api.com/en/docs/api/queues/ShowMessagesQueue/
 	 */
 	public function showMessagesQueue(): stdClass {
 

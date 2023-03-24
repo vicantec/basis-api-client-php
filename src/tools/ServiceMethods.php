@@ -22,7 +22,7 @@ class ServiceMethods {
 	 * @param int $phoneNumber
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/CheckWhatsapp/
+	 * @link https://basis-api.com/en/docs/api/service/CheckWhatsapp/
 	 */
 	public function checkWhatsapp( int $phoneNumber ): stdClass {
 
@@ -40,7 +40,7 @@ class ServiceMethods {
 	 * @param string $chatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/GetAvatar/
+	 * @link https://basis-api.com/en/docs/api/service/GetAvatar/
 	 */
 	public function getAvatar( string $chatId ): stdClass {
 
@@ -58,7 +58,7 @@ class ServiceMethods {
 	 * @param string $chatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/GetContactInfo/
+	 * @link https://basis-api.com/en/docs/api/service/GetContactInfo/
 	 */
 	public function getContactInfo( string $chatId ): stdClass {
 
@@ -79,7 +79,7 @@ class ServiceMethods {
 	 * field.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/GetContacts/
+	 * @link https://basis-api.com/en/docs/api/service/GetContacts/
 	 */
 	public function getContacts(): stdClass {
 
@@ -94,7 +94,7 @@ class ServiceMethods {
 	 * @param string $chatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/ArchiveChat/
+	 * @link https://basis-api.com/en/docs/api/service/ArchiveChat/
 	 */
 	public function archiveChat( string $chatId ): stdClass {
 
@@ -114,7 +114,7 @@ class ServiceMethods {
 	 * @param string $idMessage
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/DeleteMessage/
+	 * @link https://basis-api.com/en/docs/api/service/DeleteMessage/
 	 */
 	public function deleteMessage( string $chatId, string $idMessage ): stdClass {
 
@@ -133,7 +133,7 @@ class ServiceMethods {
 	 * @param string $chatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/unarchiveChat/
+	 * @link https://basis-api.com/en/docs/api/service/unarchiveChat/
 	 */
 	public function unarchiveChat( string $chatId ): stdClass {
 
@@ -153,7 +153,7 @@ class ServiceMethods {
 	 * @param int $ephemeralExpiration
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/service/SetDisappearingChat/
+	 * @link https://basis-api.com/en/docs/api/service/SetDisappearingChat/
 	 */
 	public function setDisappearingChat( string $chatId, int $ephemeralExpiration ): stdClass {
 

@@ -30,7 +30,7 @@ class Sending {
 	 * @param bool $archiveChat
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendButtons/
+	 * @link https://basis-api.com/en/docs/api/sending/SendButtons/
 	 */
 	public function sendButtons(
 		string $chatId, string $message, string $footer, array $buttons,
@@ -67,7 +67,7 @@ class Sending {
 	 * @param string|null $quotedMessageId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendContact/
+	 * @link https://basis-api.com/en/docs/api/sending/SendContact/
 	 */
 	public function sendContact( string $chatId, array $contact, string $quotedMessageId = null ): stdClass {
 
@@ -98,7 +98,7 @@ class Sending {
 	 * @param string|null $quotedMessageId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendFileByUpload/
+	 * @link https://basis-api.com/en/docs/api/sending/SendFileByUpload/
 	 */
 	public function sendFileByUpload(
 		string $chatId, string $path, string $fileName = null, string $caption = null, string $quotedMessageId = null
@@ -142,7 +142,7 @@ class Sending {
 	 * @param bool $archiveChat
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendFileByUrl/
+	 * @link https://basis-api.com/en/docs/api/sending/SendFileByUrl/
 	 */
 	public function sendFileByUrl(
 		string $chatId, string $urlFile, string $fileName = null, string $caption = null, string $quotedMessageId = null,
@@ -187,7 +187,7 @@ class Sending {
 	 * @param string|null $quotedMessageId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendLink/
+	 * @link https://basis-api.com/en/docs/api/sending/SendLink/
 	 */
 	public function sendLink( string $chatId, string $urlLink, string $quotedMessageId = null ): stdClass {
 
@@ -222,7 +222,7 @@ class Sending {
 	 * @param bool $archiveChat
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendListMessage/
+	 * @link https://basis-api.com/en/docs/api/sending/SendListMessage/
 	 */
 	public function sendListMessage(
 		string $chatId, string $message, array $sections, string $title = null, string $footer = null,
@@ -268,7 +268,7 @@ class Sending {
 	 * @param string|null $quotedMessageId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendLocation/
+	 * @link https://basis-api.com/en/docs/api/sending/SendLocation/
 	 */
 	public function sendLocation(
 		string $chatId, float $latitude, float $longitude, string $nameLocation = null, string $address = null,
@@ -308,7 +308,7 @@ class Sending {
 	 * @param bool $archiveChat
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendMessage/
+	 * @link https://basis-api.com/en/docs/api/sending/SendMessage/
 	 */
 	public function sendMessage(
 		string $chatId, string $message, string $quotedMessageId = null, bool $archiveChat = false
@@ -347,7 +347,7 @@ class Sending {
 	 * @param bool $archiveChat
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/SendTemplateButtons/
+	 * @link https://basis-api.com/en/docs/api/sending/SendTemplateButtons/
 	 */
 	public function sendTemplateButtons(
 		string $chatId, string $message, array $templateButtons, string $footer = null,
@@ -385,7 +385,7 @@ class Sending {
 	 * @param array $messages
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/sending/ForwardMessages/
+	 * @link https://basis-api.com/en/docs/api/sending/ForwardMessages/
 	 */
 	public function forwardMessages( string $chatId, string $chatIdFrom, array $messages ): stdClass {
 

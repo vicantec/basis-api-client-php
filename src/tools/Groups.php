@@ -23,7 +23,7 @@ class Groups {
 	 * @param string $participantChatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/AddGroupParticipant/
+	 * @link https://basis-api.com/en/docs/api/groups/AddGroupParticipant/
 	 */
 	public function addGroupParticipant( string $groupId, string $participantChatId ): stdClass {
 
@@ -43,7 +43,7 @@ class Groups {
 	 * @param array $chatIds
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/CreateGroup/
+	 * @link https://basis-api.com/en/docs/api/groups/CreateGroup/
 	 */
 	public function createGroup( string $groupName, array $chatIds ): stdClass {
 
@@ -62,7 +62,7 @@ class Groups {
 	 * @param string $groupId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/GetGroupData/
+	 * @link https://basis-api.com/en/docs/api/groups/GetGroupData/
 	 */
 	public function getGroupData( string $groupId ): stdClass {
 
@@ -80,7 +80,7 @@ class Groups {
 	 * @param string $groupId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/LeaveGroup/
+	 * @link https://basis-api.com/en/docs/api/groups/LeaveGroup/
 	 */
 	public function leaveGroup( string $groupId ): stdClass {
 
@@ -99,7 +99,7 @@ class Groups {
 	 * @param string $participantChatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/RemoveAdmin/
+	 * @link https://basis-api.com/en/docs/api/groups/RemoveAdmin/
 	 */
 	public function removeAdmin( string $groupId, string $participantChatId ): stdClass {
 
@@ -119,7 +119,7 @@ class Groups {
 	 * @param string $participantChatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/RemoveGroupParticipant/
+	 * @link https://basis-api.com/en/docs/api/groups/RemoveGroupParticipant/
 	 */
 	public function removeGroupParticipant( string $groupId, string $participantChatId ): stdClass {
 
@@ -139,7 +139,7 @@ class Groups {
 	 * @param string $participantChatId
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/SetGroupAdmin/
+	 * @link https://basis-api.com/en/docs/api/groups/SetGroupAdmin/
 	 */
 	public function setGroupAdmin( string $groupId, string $participantChatId ): stdClass {
 
@@ -159,7 +159,7 @@ class Groups {
 	 * @param string $path
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/SetGroupPicture/
+	 * @link https://basis-api.com/en/docs/api/groups/SetGroupPicture/
 	 */
 	public function setGroupPicture( string $groupId, string $path ): stdClass {
 
@@ -180,7 +180,7 @@ class Groups {
 	 * @param string $groupName
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/groups/UpdateGroupName/
+	 * @link https://basis-api.com/en/docs/api/groups/UpdateGroupName/
 	 */
 	public function updateGroupName( string $groupId, string $groupName ): stdClass {
 

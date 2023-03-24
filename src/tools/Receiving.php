@@ -48,7 +48,7 @@ class Receiving {
 	 * Notifications are sent from the queue in FIFO order
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/receiving/technology-http-api/ReceiveNotification/
+	 * @link https://basis-api.com/en/docs/api/receiving/technology-http-api/ReceiveNotification/
 	 */
 	public function receiveNotification(): stdClass {
 

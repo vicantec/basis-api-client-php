@@ -23,7 +23,7 @@ class Marking {
 	 * @param string $idMessage
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/marks/ReadChat/
+	 * @link https://basis-api.com/en/docs/api/marks/ReadChat/
 	 */
 	public function readChat( string $chatId, string $idMessage ): stdClass {
 

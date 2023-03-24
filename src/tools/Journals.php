@@ -23,7 +23,7 @@ class Journals {
 	 * @param string $count
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/journals/GetChatHistory/
+	 * @link https://basis-api.com/en/docs/api/journals/GetChatHistory/
 	 */
 	public function getChatHistory( string $chatId, string $count ): stdClass {
 
@@ -40,7 +40,7 @@ class Journals {
 	 * The method returns the chat message history.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/journals/LastIncomingMessages/
+	 * @link https://basis-api.com/en/docs/api/journals/LastIncomingMessages/
 	 */
 	public function lastIncomingMessages(): stdClass {
 
@@ -53,7 +53,7 @@ class Journals {
 	 * hours.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/journals/LastOutgoingMessages/
+	 * @link https://basis-api.com/en/docs/api/journals/LastOutgoingMessages/
 	 */
 	public function lastOutgoingMessages(): stdClass {
 

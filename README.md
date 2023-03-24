@@ -9,7 +9,7 @@ PHP library for integration with WhatsApp messenger via API of [basis-api.com](h
 
 ## API
 
-You can find REST API documentation by [url](https://cabinet.basis-api.com/docs/en/api/). The library is a wrapper for REST API, so the documentation at the above url applies to the library as well.
+You can find REST API documentation by [url](https://basis-api.com/en/docs/api/). The library is a wrapper for REST API, so the documentation at the above url applies to the library as well.
 
 ## Installation
 
@@ -92,7 +92,7 @@ Example url: [createGroupAndSendMessage.php](https://github.com/Yard-Team/basica
 
 ### Receive incoming messages by HTTP API
 
-The general concept of receiving data in the BASIS-API is described [here](https://cabinet.basis-api.com/docs/en/api/receiving/)
+The general concept of receiving data in the BASIS-API is described [here](https://basis-api.com/en/docs/api/receiving/)
 To start receiving messages by the HTTP API you need to execute the library method:
 
 ```
@@ -105,7 +105,7 @@ Parameter | Description
 typewebhook | received message type (string)
 body | message body (json)
 
-Message body types and formats [here](https://cabinet.basis-api.com/docs/en/api/receiving/notifications-format/)
+Message body types and formats [here](https://basis-api.com/en/docs/api/receiving/notifications-format/)
 
 This method will be called when an incoming message is received. Next, process messages according to the business logic of your system.
 
@@ -174,7 +174,7 @@ This method will be called when an incoming message is received. Next, process m
 
 ## Service methods documentation
 
-[https://cabinet.basis-api.com/docs/en/api/](https://cabinet.basis-api.com/docs/en/api/)
+[https://basis-api.com/en/docs/api/](https://basis-api.com/en/docs/api/)
 
 ## License
 

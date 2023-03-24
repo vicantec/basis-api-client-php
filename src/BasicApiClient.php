@@ -4,7 +4,7 @@
  * basis-api.com REST API Client
  *
  * Documentation
- * https://cabinet.basis-api.com/docs/en/api/
+ * https://basis-api.com/en/docs/api/
  */
 
 namespace BasisApi\RestApi;

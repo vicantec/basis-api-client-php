@@ -3,11 +3,11 @@
 [![Downloads per month](https://img.shields.io/packagist/dm/basis-api/basicapp-api-client-php.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
 [![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
 
-PHP библиотека для интеграции с мессенджером WhatsApp через API сервиса [basis-api.com](https://basis-api.com). Чтобы воспользоваться библиотекой, нужно получить регистрационный токен и id аккаунта в [личном кабинете](https://cabinet.basis-api.com). Есть бесплатный тариф аккаунта разработчика.
+PHP библиотека для интеграции с мессенджером WhatsApp через API сервиса [basis-api.com](https://basis-api.com). Чтобы воспользоваться библиотекой, нужно получить регистрационный токен и id аккаунта в [личном кабинете](https://ru-cabinet.basis-api.com). Есть бесплатный тариф аккаунта разработчика.
 
 ## API
 
-Документация к REST API находится по [ссылке](https://cabinet.basis-api.com/docs/en/api/). Библиотека является оберткой к REST API, поэтому документация по ссылке выше применима и к самой библиотеке.
+Документация к REST API находится по [ссылке](https://basis-api.com/en/docs/api/). Библиотека является оберткой к REST API, поэтому документация по ссылке выше применима и к самой библиотеке.
 
 ## Установка
 Через Composer:
@@ -90,7 +90,7 @@ if ($resultCreate->code == 200)
 
 ### Получение входящих сообщений через HTTP API
 
-Общая концепция получения данных в BASIS-API описана [здесь](https://cabinet.basis-api.com/docs/en/api/receiving/)
+Общая концепция получения данных в BASIS-API описана [здесь](https://basis-api.com/en/docs/api/receiving/)
 Для старта получения сообщений через HTTP API требуется выполнить метод библиотеки:
 
 ```
@@ -103,7 +103,7 @@ onEvent - ваш метод, который должен содержать па
 typeWebhook | тип полученного сообщения (строка)
 body | тело сообщения (json)
 
-Типы и форматы тел сообщений [здесь](https://cabinet.basis-api.com/docs/en/api/receiving/notifications-format/)
+Типы и форматы тел сообщений [здесь](https://basis-api.com/en/docs/api/receiving/notifications-format/)
 
 Этот метод будет вызываться при получении входящего сообщения. Далее обрабатываете сообщения согласно бизнес-логике вашей системы.
 

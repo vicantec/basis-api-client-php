@@ -19,7 +19,7 @@ class Account {
 	 * The method is aimed for getting the current account settings.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/GetSettings/
+	 * @link https://basis-api.com/en/docs/api/account/GetSettings/
 	 */
 	public function getSettings(): stdClass {
 
@@ -31,7 +31,7 @@ class Account {
 	 * The method is aimed for getting the account state.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/GetStateInstance/
+	 * @link https://basis-api.com/en/docs/api/account/GetStateInstance/
 	 */
 	public function getStateInstance(): stdClass {
 
@@ -43,7 +43,7 @@ class Account {
 	 * The method is aimed for getting the status of the account instance socket connection with WhatsApp.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/GetStatusInstance/
+	 * @link https://basis-api.com/en/docs/api/account/GetStatusInstance/
 	 */
 	public function getStatusInstance(): stdClass {
 
@@ -55,7 +55,7 @@ class Account {
 	 * The method is aimed for logging out an account.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/Logout/
+	 * @link https://basis-api.com/en/docs/api/account/Logout/
 	 */
 	public function logout(): stdClass {
 
@@ -68,7 +68,7 @@ class Account {
 	 * application WhatsApp Business on your phone. You can also get a QR code and authorize your account in your profile.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/QR/
+	 * @link https://basis-api.com/en/docs/api/account/QR/
 	 */
 	public function qr(): stdClass {
 
@@ -80,7 +80,7 @@ class Account {
 	 * The method is aimed for rebooting an account.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/Reboot/
+	 * @link https://basis-api.com/en/docs/api/account/Reboot/
 	 */
 	public function reboot(): stdClass {
 
@@ -95,7 +95,7 @@ class Account {
 	 * @param string $path
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/SetProfilePicture/
+	 * @link https://basis-api.com/en/docs/api/account/SetProfilePicture/
 	 */
 	public function setProfilePicture( string $path ): stdClass {
 
@@ -114,7 +114,7 @@ class Account {
 	 * @param array $requestBody
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/SetSettings/
+	 * @link https://basis-api.com/en/docs/api/account/SetSettings/
 	 */
 	public function setSettings( array $requestBody ): stdClass {
 
@@ -128,7 +128,7 @@ class Account {
 	 * system ones.
 	 *
 	 * @return stdClass
-	 * @link https://cabinet.basis-api.com/docs/en/api/account/SetSystemProxy/
+	 * @link https://basis-api.com/en/docs/api/account/SetSystemProxy/
 	 */
 	public function setSystemProxy(): stdClass {
 
