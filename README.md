@@ -5,7 +5,7 @@
 
 - [Документация на русском языке](README_RUS.md)
 
-PHP library for integration with WhatsApp messenger via API of [basis-api.com](https://basis-api.com) service. To use the library you have to get a registration token and an account id in the [personal area](https://cabinet.basis-api.com). There is a free developer account tariff plan.
+PHP library for integration with WhatsApp messenger via API of [basis-api.com](https://basis-api.com) service. To use the library you have to get a  api host, registration token and an account id in the [personal area](https://en-cabinet.basis-api.com). There is a free developer account tariff plan.
 
 ## API
 
@@ -26,7 +26,7 @@ require 'vendor\autoload.php';
 ```
 ## Authorization
 
-To send a message or to execute some other BASIS-API method, you have to have the WhatsApp account in the phone application to be authorized. To authorize your account please go to the [personal area](https://cabinet.basis-api.com) and scan a QR-code using the WhatsApp application.
+To send a message or to execute some other BASIS-API method, you have to have the WhatsApp account in the phone application to be authorized. To authorize your account please go to the [personal area](https://en-cabinet.basis-api.com) and scan a QR-code using the WhatsApp application.
 
 ## Examples
 

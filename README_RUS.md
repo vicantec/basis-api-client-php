@@ -3,7 +3,7 @@
 [![Downloads per month](https://img.shields.io/packagist/dm/basis-api/basicapp-api-client-php.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
 [![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?style=flat-square)](https://packagist.org/packages/basis-api/basicapp-api-client-php)
 
-PHP библиотека для интеграции с мессенджером WhatsApp через API сервиса [basis-api.com](https://basis-api.com). Чтобы воспользоваться библиотекой, нужно получить регистрационный токен и id аккаунта в [личном кабинете](https://ru-cabinet.basis-api.com). Есть бесплатный тариф аккаунта разработчика.
+PHP библиотека для интеграции с мессенджером WhatsApp через API сервиса [basis-api.com](https://basis-api.com). Чтобы воспользоваться библиотекой, нужно получить api host, регистрационный токен и id аккаунта в [личном кабинете](https://ru-cabinet.basis-api.com). Есть бесплатный тариф аккаунта разработчика.
 
 ## API
 
@@ -23,7 +23,7 @@ require 'vendor\autoload.php';
 ```
 ## Авторизация 
 
-Чтобы отправить сообщение или выполнить другой метод BASIS-API, аккаунт WhatsApp в приложении телефона должен быть в авторизованном состоянии. Для авторизации аккаунта перейдите в [личный кабинет](https://cabinet.basis-api.com) и сканируйте QR-код с использованием приложения WhatsApp.
+Чтобы отправить сообщение или выполнить другой метод BASIS-API, аккаунт WhatsApp в приложении телефона должен быть в авторизованном состоянии. Для авторизации аккаунта перейдите в [личный кабинет](https://ru-cabinet.basis-api.com) и сканируйте QR-код с использованием приложения WhatsApp.
 
 ## Примеры
 
